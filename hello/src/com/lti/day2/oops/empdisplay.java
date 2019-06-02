@@ -23,11 +23,8 @@ public class empdisplay {
 		aadhar.setAddress("Mumbai");
 		aadhar.setName("Syed");
 		emp.setAadhar(aadhar);
+		emp.print();
 		
-		System.out.println("Name : "+emp.getName());
-		System.out.println("Salary :"+emp.getSalary());
-		System.out.println("Aadhar no :"+emp.getAadhar().getAadharNo());
-		System.out.println("Passport no :"+emp.getPass().getPassportNo());
 		
 		
 		

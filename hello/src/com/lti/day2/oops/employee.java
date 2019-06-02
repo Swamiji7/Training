@@ -22,7 +22,7 @@ public class employee {
 		return name;
 	}
 	public void setName(String name) {
-		this.name = name;
+		this.name =name ;
 	}
 	public String getDateOfJoining() {
 		return dateOfJoining;
@@ -49,7 +49,12 @@ public class employee {
 		this.aadhar = aadhar;
 	}
 	
-	
+	public void print() {
+		System.out.println("Name : "+name);
+		System.out.println("Salary : "+salary);
+		System.out.println("Aadhar no :"+getAadhar().getAadharNo());
+		System.out.println("Passport no :"+getPass().getPassportNo());
+	}
 	
 	
 }
