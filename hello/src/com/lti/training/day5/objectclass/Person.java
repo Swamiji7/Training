@@ -4,6 +4,7 @@ public class Person implements Cloneable /* extends object by default since its 
 
 	private String name;
 	private int age;
+	
 
 	public Person(String name, int age) {
 		super();
