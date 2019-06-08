@@ -4,6 +4,7 @@ public class aadharcard {
 	long aadharNo;
 	String name;
 	String address;
+	
 	public aadharcard(long aadharNo, String name, String address) {
 		//super();
 		this.aadharNo = aadharNo;
