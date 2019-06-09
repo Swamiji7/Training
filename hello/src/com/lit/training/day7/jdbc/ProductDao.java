@@ -47,9 +47,9 @@ public class ProductDao {
 			} catch (Exception e) {
 			}
 		}
-	}
+	}}
 
-	public List<Product> fetchAll() {
+	/*public List<Product> fetchAll() {
 		Connection conn = null; // helps the connection between the app
 		PreparedStatement stmt = null; // helps us to execute SQL Statements
 		ResultSet rs = null; // helps to retrieve the result of the sql query
@@ -83,4 +83,4 @@ public class ProductDao {
 		}
 		return null;
 	}
-}
+}*/
